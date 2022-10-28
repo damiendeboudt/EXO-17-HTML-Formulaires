@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>exo 17</title>
+</head>
+<body>
+  <form action="mon formulaire.php" method="post">
+    <div>
+      <label for="nom">nom</label>
+      <input type="text" id="name=user_name">
+    </div>
+    <div>
+      <label for="prenom">prénom</label>
+      <input type="text" id="name=user_name">
+    </div>
+    <div>
+      <label for="date">date anniversaire</label>
+        <input type="number" id="date">
+          <select name="month" id="bithday month">
+            <option value="1">janvier</option>
+            <option value="2">fevrier</option>
+            <option value="3">mars</option>
+            <option value="4">avril</option>
+            <option value="5">mai</option>
+            <option value="6">juin</option>
+            <option value="7">juillet</option>
+            <option value="8">aout</option>
+            <option value="9">septembre</option>
+            <option value="10">octobre</option>
+            <option value="11">novembre</option>
+            <option value="12">decembre</option>
+          </select>
+        <input type="number" id="année">
+    </div>
+
+    <div>
+      <label for="sexe">Votre sexe</label>
+        <select name="sexe" id="sexe">
+          <option value="M">Homme</option>
+          <option value="F">Femme</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="Mail">Adresse mail</label>
+      <input type="email">
+    </div>
+    <div>
+      <input type="url" placeholder="Liens vers profil Github">
+    </div>
+
+    <div>
+    <button type=submit name="user_submit">Envoyer</button>
+    </div>
+
+  </form>
+</body>
+</html>
